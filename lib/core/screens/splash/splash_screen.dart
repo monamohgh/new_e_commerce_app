@@ -1,10 +1,35 @@
 import 'package:flutter/material.dart';
+import 'package:new_e_commerce_app/core/screens/home/home_screen.dart';
 import 'package:new_e_commerce_app/core/utils/app_assets.dart';
-import 'package:new_e_commerce_app/core/utils/app_colors.dart';
+import 'package:new_e_commerce_app/core/utils/app_routes.dart';
 
-class SplashScreen extends StatelessWidget {
+
+class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 
+  @override
+  State<SplashScreen> createState() => _SplashScreenState();
+}
+
+class _SplashScreenState extends State<SplashScreen> {
+  @override
+  void initState() {
+    super.initState();
+    _navigateToHome();
+  }
+
+  void _navigateToHome() {
+    Future.delayed(const Duration(seconds: 3), () {
+      if (mounted) {
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(
+            builder: (context) =>HomeScreen(),
+          ),
+        );
+      }
+    });
+  }
   @override
   Widget build(BuildContext context) {
     return Scaffold(
