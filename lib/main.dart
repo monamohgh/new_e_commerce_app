@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:new_e_commerce_app/core/utils/app_routes.dart';
+import 'package:new_e_commerce_app/screens/home/home_screen.dart';
 import 'package:new_e_commerce_app/screens/splash/splash_screen.dart';
 
 void main() {
@@ -15,7 +16,8 @@ class MyApp extends StatelessWidget {
     debugShowCheckedModeBanner: false,
       initialRoute: AppRoutes.splashRoute,
       routes: {
-      AppRoutes.splashRoute:(context)=>SplashScreen(),
+        AppRoutes.splashRoute:(context)=>SplashScreen(),
+        AppRoutes.homeRoute:(context)=>HomeScreen(),
       },
     );
   }
