@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:new_e_commerce_app/core/screens/home/home_screen.dart';
 import 'package:new_e_commerce_app/core/utils/app_assets.dart';
-import 'package:new_e_commerce_app/core/utils/app_routes.dart';
 
 
 class SplashScreen extends StatefulWidget {
