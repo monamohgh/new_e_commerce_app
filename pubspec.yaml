@@ -39,6 +39,7 @@ dependencies:
   retrofit: ^4.10.0
   flutter_screenutil: ^5.9.3
   fluttertoast: ^10.0.0
+  auto_size_text: ^3.0.0
 
 dev_dependencies:
   flutter_test:

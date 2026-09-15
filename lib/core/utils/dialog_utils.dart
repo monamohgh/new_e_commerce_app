@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:new_e_commerce_app/core/utils/app_colors.dart';
 import 'package:new_e_commerce_app/core/utils/app_styles.dart';
 
 class DialogUtils {
