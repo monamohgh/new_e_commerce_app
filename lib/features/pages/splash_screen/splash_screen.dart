@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:new_e_commerce_app/core/utils/app_assets.dart';
 
-import '../home/home_screen.dart';
+import '../../auth/ui/login/login_screen.dart';
+
 
 
 class SplashScreen extends StatefulWidget {
@@ -24,7 +25,7 @@ class _SplashScreenState extends State<SplashScreen> {
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(
-            builder: (context) =>HomeScreen(),
+            builder: (context) =>LoginScreen(),
           ),
         );
       }
