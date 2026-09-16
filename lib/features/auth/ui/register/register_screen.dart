@@ -4,10 +4,10 @@ import 'package:new_e_commerce_app/core/utils/app_assets.dart';
 import 'package:new_e_commerce_app/core/utils/app_colors.dart';
 import 'package:new_e_commerce_app/core/utils/app_routes.dart';
 import 'package:new_e_commerce_app/core/utils/app_styles.dart';
-import 'package:new_e_commerce_app/features/ui/widgets/custom_elevated_button.dart';
-import 'package:new_e_commerce_app/features/ui/widgets/custom_text_form_field.dart';
 
 import '../../../../core/utils/validators.dart';
+import '../../../widgets/custom_elevated_button.dart';
+import '../../../widgets/custom_text_form_field.dart';
 
 class RegisterScreen extends StatefulWidget {
   RegisterScreen({super.key});

@@ -5,7 +5,9 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text('Home screen',style: TextStyle(fontSize: 40,color: Colors.red),),
+      bottomNavigationBar: BottomNavigationBar(
+          items:[]
+      ),
     );
   }
 }
