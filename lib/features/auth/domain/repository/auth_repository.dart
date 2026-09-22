@@ -1,7 +1,7 @@
 //todo:interface=>auth repository
-import 'package:new_e_commerce_app/core/network/api_result.dart';
 import 'package:new_e_commerce_app/features/auth/domain/entities/request/login/login_request.dart';
 import 'package:new_e_commerce_app/features/auth/domain/entities/request/register/register_request.dart';
+import 'package:new_e_commerce_app/features/network/api/api_result.dart';
 
 abstract class AuthRepository {
   ///Future<AuthResponse> call=>Future<void> call

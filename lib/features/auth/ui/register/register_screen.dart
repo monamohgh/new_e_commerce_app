@@ -9,10 +9,10 @@ import 'package:new_e_commerce_app/core/utils/app_styles.dart';
 import 'package:new_e_commerce_app/core/utils/flutter_toast.dart';
 import 'package:new_e_commerce_app/features/auth/ui/register/cubit/register_cubit.dart';
 import 'package:new_e_commerce_app/features/auth/ui/register/cubit/register_states.dart';
+import 'package:new_e_commerce_app/features/common/widgets/custom_elevated_button.dart';
+import 'package:new_e_commerce_app/features/common/widgets/custom_text_form_field.dart';
 
 import '../../../../core/utils/validators.dart';
-import '../../../widgets/custom_elevated_button.dart';
-import '../../../widgets/custom_text_form_field.dart';
 
 class RegisterScreen extends StatefulWidget {
   const RegisterScreen({super.key});

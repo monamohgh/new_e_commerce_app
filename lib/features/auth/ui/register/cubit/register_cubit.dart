@@ -1,6 +1,6 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:injectable/injectable.dart';
-import 'package:new_e_commerce_app/core/utils/resource.dart';
+import 'package:new_e_commerce_app/features/common/utils/resource.dart';
 import 'package:new_e_commerce_app/features/auth/domain/entities/request/register/register_request.dart';
 import 'package:new_e_commerce_app/features/auth/domain/use_cases/register_use_case.dart';
 import 'package:new_e_commerce_app/features/auth/ui/register/cubit/register_states.dart';

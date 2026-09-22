@@ -1,8 +1,8 @@
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:injectable/injectable.dart';
 import 'package:dio/dio.dart';
-import 'package:new_e_commerce_app/core/network/api_client.dart';
-import 'package:new_e_commerce_app/core/network/api_constants.dart';
+import 'package:new_e_commerce_app/features/network/api/api_client.dart';
+import 'package:new_e_commerce_app/features/network/api/api_constants.dart';
 import 'package:pretty_dio_logger/pretty_dio_logger.dart';
 //في حزمة Injectable (المستخدمة لترتيب الحقن والاعتماديات Dependency Injection مع get_it في Flutter)/
 // ، يُستخدم المُعرّف @module لتسجيل وحقن الفئات (Classes) التي لا تملك الكود المصدري الخاص بها (Third-party dependencies)

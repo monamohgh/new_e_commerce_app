@@ -1,12 +1,12 @@
 import 'package:dio/dio.dart';
 import 'package:injectable/injectable.dart';
 import 'package:new_e_commerce_app/core/errors/app_errors.dart';
-import 'package:new_e_commerce_app/core/network/api_client.dart';
-import 'package:new_e_commerce_app/core/network/api_result.dart';
 import 'package:new_e_commerce_app/features/auth/data/data_sources/remote/auth_remote_data_source.dart';
-import 'package:new_e_commerce_app/features/auth/data/models/request/login/login_request_dto.dart';
-import 'package:new_e_commerce_app/features/auth/data/models/request/register/register_request_dto.dart';
-import 'package:new_e_commerce_app/features/auth/data/models/response/auth/auth_response_dto.dart';
+import 'package:new_e_commerce_app/features/network/api/api_client.dart';
+import 'package:new_e_commerce_app/features/network/api/api_result.dart';
+import 'package:new_e_commerce_app/features/network/models/request/login/login_request_dto.dart';
+import 'package:new_e_commerce_app/features/network/models/request/register/register_request_dto.dart';
+import 'package:new_e_commerce_app/features/network/models/response/auth/auth_response_dto.dart';
 //todo:impl=>ds
 @Injectable(as:AuthRemoteDataSource )
 class  AuthRemoteDataSourceImpl  implements AuthRemoteDataSource{

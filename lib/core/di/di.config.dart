@@ -14,6 +14,8 @@ import 'package:connectivity_plus/connectivity_plus.dart' as _i895;
 import 'package:dio/dio.dart' as _i361;
 import 'package:get_it/get_it.dart' as _i174;
 import 'package:injectable/injectable.dart' as _i526;
+import 'package:new_e_commerce_app/features/network/api/api_client.dart' as _i557;
+import 'package:new_e_commerce_app/features/network/api/get_it_module.dart' as _i601;
 import 'package:pretty_dio_logger/pretty_dio_logger.dart' as _i528;
 
 import '../../features/auth/data/data_sources/remote/auth_remote_data_source.dart'
@@ -26,8 +28,6 @@ import '../../features/auth/domain/use_cases/login_use_case.dart' as _i1038;
 import '../../features/auth/domain/use_cases/register_use_case.dart' as _i1010;
 import '../../features/auth/ui/login/cubit/login_cubit.dart' as _i416;
 import '../../features/auth/ui/register/cubit/register_cubit.dart' as _i539;
-import '../network/api_client.dart' as _i557;
-import '../network/get_it_module.dart' as _i601;
 
 extension GetItInjectableX on _i174.GetIt {
   // initializes the registration of main-scope dependencies inside of GetIt

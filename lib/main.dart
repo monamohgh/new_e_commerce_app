@@ -5,10 +5,10 @@ import 'package:new_e_commerce_app/core/di/di.dart';
 import 'package:new_e_commerce_app/core/utils/app_routes.dart';
 import 'package:new_e_commerce_app/core/utils/app_theme.dart';
 import 'package:new_e_commerce_app/core/utils/my_bloc_observer.dart';
-import 'package:new_e_commerce_app/features/pages/home_screen/home_screen.dart';
 
 import 'features/auth/ui/login/login_screen.dart';
 import 'features/auth/ui/register/register_screen.dart';
+import 'features/commerce/home_screen/tabs/home_tab/home_screen.dart';
 import 'features/pages/splash_screen/splash_screen.dart';
 
 void main() {

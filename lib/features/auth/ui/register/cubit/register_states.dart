@@ -1,4 +1,4 @@
-import 'package:new_e_commerce_app/core/utils/resource.dart';
+import 'package:new_e_commerce_app/features/common/utils/resource.dart';
 
 class RegisterStates {
   late Resource<void>registerState;

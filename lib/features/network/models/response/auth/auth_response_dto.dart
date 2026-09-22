@@ -1,5 +1,5 @@
 import 'package:json_annotation/json_annotation.dart';
-import 'package:new_e_commerce_app/features/auth/data/models/response/auth/user_dto.dart';
+import 'package:new_e_commerce_app/features/network/models/response/auth/user_dto.dart';
 
 part 'auth_response_dto.g.dart';
 
